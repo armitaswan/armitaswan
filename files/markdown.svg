@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="gradStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D9CFF"/>
+      <stop offset="100%" stop-color="#B33BF6"/>
+    </linearGradient>
+    <linearGradient id="gradText" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6EC7FF"/>
+      <stop offset="100%" stop-color="#D69BFF"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square outline with gradient stroke -->
+  <rect x="4" y="8" width="56" height="48" rx="6" ry="6" fill="none" stroke="url(#gradStroke)" stroke-width="3" />
+  <!-- "M" text -->
+  <text x="21" y="38" font-family="Inter, sans-serif" font-weight="700" font-size="18" fill="url(#gradText)">M</text>
+  <!-- Arrow pointing down -->
+  <path d="M38 26 v8 h-5 l9 10 9-10 h-5 v-8 z" fill="url(#gradText)" />
+</svg>
